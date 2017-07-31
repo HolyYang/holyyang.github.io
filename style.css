@@ -1,0 +1,17 @@
+.title{
+    text-align: center;
+    color: #07070f;
+}
+
+.imagestyle{
+
+/*旋转*/
+    -ms-transform:rotate(90deg); /* IE 9 */
+    -moz-transform:rotate(90deg); /* Firefox */
+    -webkit-transform:rotate(90deg); /* Safari and Chrome */
+    -o-transform:rotate(90deg); /* Opera */
+
+    width: 100%;
+    height: 100%;
+
+}
