@@ -1,2 +1,2 @@
-xiaobaiyangshop.xyz
+www.xiaobaiyangshop.xyz
 
