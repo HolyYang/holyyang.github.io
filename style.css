@@ -3,15 +3,45 @@
     color: #07070f;
 }
 
+.titlebg{
+    background-color: red;
+    height: 100px;
+    }
 .imagestyle{
-
 /*旋转*/
     -ms-transform:rotate(90deg); /* IE 9 */
     -moz-transform:rotate(90deg); /* Firefox */
     -webkit-transform:rotate(90deg); /* Safari and Chrome */
     -o-transform:rotate(90deg); /* Opera */
-
     width: 100%;
     height: 100%;
+}
 
+#box1{
+    width: 200px;
+    height: 200px;
+    /*padding :20px;*/
+    background-color: mediumspringgreen;
+    text-align: center;
+    /*border: 10px red solid;*/
+    /*margin :20px;*/
+    display: inline;
+}
+
+#box2{
+    width: 200px;
+    height: 200px;
+    background-color: chartreuse;
+    text-align: center;
+    padding: 50px;
+}
+
+#box3{
+    width: 40px;
+    height: 40px;
+    /*margin :50px;*/
+    background-color: darkslategrey;
+    text-align: center;
+    padding: 20px;
+    border: 10px red double;
 }
