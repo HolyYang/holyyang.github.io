@@ -5,20 +5,14 @@
     <meta charset="UTF-8">
     <title>练习web页面搭建</title>
     <link href="view.css" rel="stylesheet" type="text/css">
-    <style type="text/css">
-        a:link {color: #FF0000}
-        a:visited {color: #00FF00}
-        a:hover {color: #FF00FF}
-        a:active {color: #0000FF}
-    </style>
 </head>
 <body>
 <div class="topview">
-    <a class="astyle" href="#">FessVPNSS</a>
-    <a class="astyle" style="background: #090909" href="#">首页</a>
-    <a class="astyle" href="#">免费VPN</a>
-    <a class="astyle" href="#">免费ShadowSocks</a>
-    <a class="astyle" href="#">商家推荐</a>
+    <a class="astyle" href="index.html">FessVPNSS</a>
+    <a class="astyle" style="background: #090909" href="index.html">首页</a>
+    <a class="astyle" href="#freevpn">免费VPN</a>
+    <a class="astyle" href="#freeshadowsocks">免费ShadowSocks</a>
+    <a class="astyle" href="#shop">商家推荐</a>
     <a class="astyle" href="#">使用教程</a>
 </div>
 <div class="titleview">
@@ -27,7 +21,7 @@
     <p class="titltview_small_text">切勿用于任何非法用途，否则必定配合有关部门追究到底</p>
     <p class="titltview_small_text">已禁止下载BT、盗版视频、滥发邮件以及绝大部分非法网站</p>
 </div>
-<div class="view-vertical">
+<div id="freevpn">
     <p class="vpnview_title">免费VPN帐号,每12小时更换一次密码</p><hr>
     <div class="vpnview_content_us_bordercolor">
         <p class="vpnview_content_us_titlecolor">美国</p>
@@ -59,7 +53,7 @@
 </div>
 
 
-<div class="view-vertical">
+<div id="freeshadowsocks">
     <p class="vpnview_title">免费SS帐号,每12小时更换一次密码</p><hr>
     <div class="vpnview_content_us_bordercolor">
         <p class="vpnview_content_us_titlecolor">美国</p>
@@ -90,7 +84,7 @@
     </div>
 </div>
 
-<div>
+<div id="shop">
     <p class="vpnview_title">商家推荐</p><hr>
     <div class="shop">
         <p style="text-align: center"><img src="images/cloudss.png" width="140" height="140"></p>
