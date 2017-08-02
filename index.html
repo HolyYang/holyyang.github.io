@@ -3,19 +3,23 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>实验web页面搭建</title>
+    <title>练习web页面搭建</title>
     <link href="view.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+        a:link {color: #FF0000}
+        a:visited {color: #00FF00}
+        a:hover {color: #FF00FF}
+        a:active {color: #0000FF}
+    </style>
 </head>
 <body>
 <div class="topview">
-    <ul>
-        <li class="toptext">FessVPNSS</li>
-        <li class="toptext">首页</li>
-        <li class="toptext">免费VPN</li>
-        <li class="toptext">免费ShadowSocks</li>
-        <li class="toptext">商家推荐</li>
-        <li class="toptext">使用教程</li>
-    </ul>
+    <a class="astyle" href="#">FessVPNSS</a>
+    <a class="astyle" style="background: #090909" href="#">首页</a>
+    <a class="astyle" href="#">免费VPN</a>
+    <a class="astyle" href="#">免费ShadowSocks</a>
+    <a class="astyle" href="#">商家推荐</a>
+    <a class="astyle" href="#">使用教程</a>
 </div>
 <div class="titleview">
     <p class="titltview_big_text">世界那么大,我想去看看</p>
@@ -23,8 +27,8 @@
     <p class="titltview_small_text">切勿用于任何非法用途，否则必定配合有关部门追究到底</p>
     <p class="titltview_small_text">已禁止下载BT、盗版视频、滥发邮件以及绝大部分非法网站</p>
 </div>
-<p class="vpnview_title">免费VPN帐号,每12小时更换一次密码</p><hr>
-<div class="div_width">
+<div class="view-vertical">
+    <p class="vpnview_title">免费VPN帐号,每12小时更换一次密码</p><hr>
     <div class="vpnview_content_us_bordercolor">
         <p class="vpnview_content_us_titlecolor">美国</p>
         <p class="vpnview_content">服务器地址：us.ssip.club</p>
@@ -53,35 +57,41 @@
         <p class="activebutton">Active</p>
     </div>
 </div>
-<p class="vpnview_title">免费SS帐号,每12小时更换一次密码</p><hr>
-<div class="div_width">
+
+
+<div class="view-vertical">
+    <p class="vpnview_title">免费SS帐号,每12小时更换一次密码</p><hr>
     <div class="vpnview_content_us_bordercolor">
         <p class="vpnview_content_us_titlecolor">美国</p>
         <p class="vpnview_content">服务器地址：us.ssip.club</p>
-        <p class="vpnview_content">端口：443</p>
+        <p class="vpnview_content">用户名：freevpnss</p>
         <p class="vpnview_content">密码：19902588</p>
-        <p class="vpnview_content">加密方式：AES-256-CFB</p>
+        <p class="vpnview_content">连接方式：PPTP IPSec(IKEv1)</p>
+        <p class="vpnview_content">IPSec密钥：freevpnss</p>
         <p class="activebutton">Active</p>
     </div>
     <div class="vpnview_content_jp_bordercolor">
         <p class="vpnview_content_jp_titlecolor">日本</p>
         <p class="vpnview_content">服务器地址：jp.ssip.club</p>
-        <p class="vpnview_content">端口：443</p>
+        <p class="vpnview_content">用户名：freevpnss</p>
         <p class="vpnview_content">密码：15517290</p>
-        <p class="vpnview_content">加密方式：AES-256-CFB</p>
+        <p class="vpnview_content">连接方式：PPTP IPSec(IKEv1)</p>
+        <p class="vpnview_content">IPSec密钥：freevpnss</p>
         <p class="activebutton">Active</p>
     </div>
     <div class="vpnview_content_usa_bordercolor">
         <p class="vpnview_content_usa_titlecolor">美国</p>
         <p class="vpnview_content">服务器地址：usa.ssip.club</p>
-        <p class="vpnview_content">端口：443</p>
+        <p class="vpnview_content">用户名：freevpnss</p>
         <p class="vpnview_content">密码：67857890</p>
-        <p class="vpnview_content">加密方式：AES-256-CFB</p>
+        <p class="vpnview_content">连接方式：PPTP IPSec(IKEv1)</p>
+        <p class="vpnview_content">IPSec密钥：freevpnss
         <p class="activebutton">Active</p>
     </div>
 </div>
-<p class="vpnview_title">商家推荐</p><hr>
-<div class="div_width">
+
+<div>
+    <p class="vpnview_title">商家推荐</p><hr>
     <div class="shop">
         <p style="text-align: center"><img src="images/cloudss.png" width="140" height="140"></p>
         <p class="endtitletext">CloudSS|云影</p>
@@ -89,7 +99,9 @@
         <p class="vpnview_content">日本/香港/台湾/新加坡/韩国/美国/英国</p>
         <p class="vpnview_content">支持shadowsocks</p>
         <p class="vpnview_content">自动开通，套餐灵活</p>
-        <button class="goweb">前往官网></button>
+        <div class="goweb">
+            <a class="goweb" href="http://www.cloudss.org/aff.php?aff=009" target="_blank">前往官网></a>
+        </div>
     </div>
     <div class="shop">
         <p style="text-align: center"><img src="images/godusevpn.png" width="140" height="140"></p>
@@ -98,7 +110,9 @@
         <p class="vpnview_content">日本/香港/台湾/新加坡/韩国/美国</p>
         <p class="vpnview_content">同时支持Shadowsocks和VPN</p>
         <p class="vpnview_content">人工开通，性价比高</p>
-        <button class="goweb">前往官网></button>
+        <div class="goweb">
+            <a class="goweb" href="http://www.godusevpn.cc/" target="_blank">前往官网></a>
+        </div>
     </div>
     <div class="shop">
         <p style="text-align: center"><img src="images/v2ss.png" width="140" height="140"></p>
@@ -107,11 +121,17 @@
         <p class="vpnview_content">香港(CN2)/新加坡(CN2)/日本/韩国/台湾/美国</p>
         <p class="vpnview_content">支持SS</p>
         <p class="vpnview_content">普通和高级套餐</p>
-        <button class="goweb">前往官网></button>
+        <div class="goweb">
+            <a class="goweb" href="http://v2ss.net/users/aff.php?aff=1338" target="_blank">前往官网></a>
+        </div>
     </div>
 </div>
-<hr>
-<p class="entext">Copyright © 2016 FreeVPNSS Inc.</p>
-<p class="entext">getfreevpnss@gmail.com</p>
+<div>
+    <br>
+    <hr>
+    <p class="entext">Copyright © 2016 FreeVPNSS Inc.</p>
+    <p class="entext">getfreevpnss@gmail.com</p>
+</div>
+
 </body>
 </html>

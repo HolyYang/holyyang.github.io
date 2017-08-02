@@ -1,19 +1,20 @@
 /*顶部视图*/
+.astyle{
+	float: left;
+	line-height: 50px;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: center;
+	font-size: 18px;
+}
 .topview{
 	background-color: #282828;
 	width: 100%;
 	height: 50px;
 	margin: -10px 30px 0px -10px;
-	padding-left: 30px;
+	padding-left: 45px;
 	}
-.toptext{
-	color: white;
-	float: left;
-	line-height: 50px;
-	padding-left: 30px;
-	text-align: center;
-	font-size: 18px;
-}
+
 /*世界那么大*/
 .titleview{
 	background-color: #eeeeee;
@@ -74,28 +75,27 @@ ul{
 	margin-top: 0px;
 }
 .vpnview_content_jp_bordercolor,.vpnview_content_us_bordercolor,.vpnview_content_usa_bordercolor{
-	float: left;
-	width: 30%;
-	margin: 0px 15px 0px 15px;
+	/*float: left;*/
+	display: inline-block;
+	margin: 20px 1.4% 20px 1.4%;
 	min-width: 300px;
-}
-.div_width{
-	width: 100%;
-	background-color: yellow;
-	margin: 0px 30px 30px 30px;
+	width: 30%;
+	border-radius: 5px;
 }
 .activebutton{
 	color: white;
 	font-size: 18px;
-	background-color: green;
-	/*width: 50px;*/
+	background-color: #72b566;
+	width: 60px;
 	text-align: center;
 	font-size: 17px;
+	margin: 20px auto;
+	border-radius: 3px;
 }
 .shop{
-	float: left;
+	display: inline-block;
 	width: 30%;
-	margin: 0px 15px 0px 15px;
+	margin: 20px 1.4% 20px 1.4%;
 	min-width: 300px;
 }
 .endtitletext{
@@ -104,15 +104,28 @@ ul{
 }
 .goweb{
 	text-align: center;
+	line-height: 40px;
 	width: 120px;
 	height: 40px;
 	background-color: green;
 	font-size: 17px;
 	color: white;
 	border-radius: 5px;
+	margin: 20px auto;
 }
-
+.view-vertical{
+	/*display: block;*/
+	width: 100%;
+}
 .entext{
 	text-align: center;
 	font-size: 17px;
 }
+hr{
+	margin: 0px 50px 0px 50px;
+	background-color: #6e6b72;
+}
+a{
+	text-decoration:none;
+}
+a:link {color: #FF0000}
